@@ -23,7 +23,7 @@ const Footer = () => {
                     <li className="menuItem">FAQ</li>
                 </ul>
                 <div className="infoText">
-                    Singhamit911 on Github - This project is made for learning purpose and all copyright of the API belongs to TMDB- 2023
+                    @Singhamit911 on Github - This project is made for learning purpose and all copyright of the API belongs to TMDB- 2023
                 </div>
                 <div className="socialIcons">
                 <a href="https://github.com/Singhamit911" target="_blank" className="iconWhite" >
