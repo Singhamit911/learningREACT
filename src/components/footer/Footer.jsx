@@ -4,6 +4,7 @@ import {
     FaInstagram,
     FaTwitter,
     FaLinkedin,
+    FaGithub,
 } from "react-icons/fa";
 
 import ContentWrapper from "../contentWrapper/ContentWrapper";
@@ -22,27 +23,27 @@ const Footer = () => {
                     <li className="menuItem">FAQ</li>
                 </ul>
                 <div className="infoText">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur.
+                    Singhamit911 on Github - This project is made for learning purpose and all copyright of the API belongs to TMDB- 2023
                 </div>
                 <div className="socialIcons">
+                <a href="https://github.com/Singhamit911" target="_blank" className="iconWhite" >
                     <span className="icon">
-                        <FaFacebookF />
-                    </span>
+                        <FaGithub />
+                    </span></a>
+
                     <span className="icon">
                         <FaInstagram />
                     </span>
                     <span className="icon">
                         <FaTwitter />
                     </span>
+                    <a href="https://www.linkedin.com/in/contact-singhamit/" target="_blank" className="iconWhite" >
                     <span className="icon">
                         <FaLinkedin />
                     </span>
+                    </a>
                 </div>
+
             </ContentWrapper>
         </footer>
     );

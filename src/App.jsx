@@ -54,13 +54,9 @@ function App() {
 
         dispatch(getGenres(allGenres));
     };
-    useEffect(() => {
-        document.title = "MovON";
-      }, []);
+
     return (
         <BrowserRouter>
-        
-
             <Header />
             <Routes>
                 <Route path="/" element={<Home />} />
